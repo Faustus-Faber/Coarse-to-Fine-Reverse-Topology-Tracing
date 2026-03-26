@@ -1,0 +1,35 @@
+# Antigravity/Agent folders
+.agents/
+.gemini/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Videos & Datasets (Too large for Git)
+videos/
+dataset/
+*.mp4
+*.avi
+*.mkv
+
+# LaTeX / PDF compile artifacts
+*.aux
+*.log
+*.out
+*.ttt
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
+
+# IDEs
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
