@@ -1,6 +1,6 @@
-# NeurIPS 2026: Coarse-to-Fine Video Frame Interpolation (VFI)
+# Coarse-to-Fine Video Frame Interpolation (VFI)
 
-This repository contains the codebase, evaluation metrics, and testing scenarios for an advanced, AI-free Coarse-to-Fine Video Frame Interpolation pipeline developed for NeurIPS 2026. The algorithm relies strictly on geometric structural ghost geolocation, pristine pixel gathering, and Farneback Optical Flow magnitude cross-fading to generate temporally coherent sub-millisecond frames without neural network hallucinations.
+This repository contains the codebase, evaluation metrics, and testing scenarios for an advanced, AI-free Coarse-to-Fine Video Frame Interpolation pipeline. The algorithm relies strictly on geometric structural ghost geolocation, pristine pixel gathering, and Farneback Optical Flow magnitude cross-fading to generate temporally coherent sub-millisecond frames without neural network hallucinations.
 
 ## 📂 Repository Structure
 
@@ -35,4 +35,4 @@ python src/interpolator_core.py --ipc 1280 720
 ```
 
 ## ⚖️ License & Compilation
-This codebase acts as the technical supplementary material for the NeurIPS 2026 submission. Raw `.mp4` datasets and LaTeX `.pdf` compilation artifacts are explicitly omitted via `.gitignore` to maintain repository speed and compliance limits.
+This codebase acts as the technical supplementary material for this paper's submission. Raw `.mp4` datasets and LaTeX `.pdf` compilation artifacts are explicitly omitted via `.gitignore` to maintain repository speed and compliance limits.
